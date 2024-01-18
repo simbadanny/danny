@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28A5E703-E43E-F516-60EA-576BFC5B6A17" name="PROVINCIA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:43:50 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idpr_ds" id="70EDC29A-9E38-E232-339D-9DC055BEDB04">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:44:04 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ds" id="752D553D-5993-48C7-D8DD-96F4733E1FDA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:45:23 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regio_ds" id="FF7DA5E8-C94C-18A6-5EBC-EF705EDD396F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:45:46 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capital_ds" id="557C5553-3B22-3DA4-C549-8CFE5E32CE47">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:46:09 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fotografia" id="BD731FE1-2310-271D-AA3B-DA7B8D6CD495">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:46:28 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EEC6E54-4081-0728-BD24-1CD0E44E3927" name="PROVINCIA PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:44:29 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70EDC29A-9E38-E232-339D-9DC055BEDB04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

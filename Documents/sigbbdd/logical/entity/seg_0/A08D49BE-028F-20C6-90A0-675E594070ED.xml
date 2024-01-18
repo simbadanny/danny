@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A08D49BE-028F-20C6-90A0-675E594070ED" name="Cliente">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:46:55 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idcl_ds" id="A1948357-CE9B-51BD-6071-AFEA65A4DF0D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:47:07 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ds" id="000BE125-CB2B-EE04-C4EE-32680A3E8A1F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:47:39 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad_ds" id="0DCB1E61-4A7B-8BE9-F0C3-EA1B0281A131">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:48:08 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,100,100</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_ds" id="9874F8CE-6E93-C449-6B8F-4EB09BA9E57C">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:48:37 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="017773C5-E8DC-0208-223D-2581F77FBEDF" name="Cliente PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:47:35 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1948357-CE9B-51BD-6071-AFEA65A4DF0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

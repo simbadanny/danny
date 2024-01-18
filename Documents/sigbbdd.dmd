@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sigbbdd" id="23AC66BA-280C-6BA7-4B31-3D8A51741BBE" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:43:23 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>23AC66BA-280C-6BA7-4B31-3D8A51741BBE</designId>
+</OSDM_Design>

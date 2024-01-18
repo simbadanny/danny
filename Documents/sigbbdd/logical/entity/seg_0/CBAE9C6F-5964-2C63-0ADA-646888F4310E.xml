@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBAE9C6F-5964-2C63-0ADA-646888F4310E" name="Receta">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 04:02:41 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idre_ds" id="A4FD2A60-CA07-FE9B-7B22-3C89CC0B670A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 04:02:55 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B53C928D-4AC0-B278-4305-9F015F6EDB91" name="Receta PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 04:03:13 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4FD2A60-CA07-FE9B-7B22-3C89CC0B670A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

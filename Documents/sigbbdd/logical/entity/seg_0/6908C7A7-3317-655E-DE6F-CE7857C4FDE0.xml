@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6908C7A7-3317-655E-DE6F-CE7857C4FDE0" name="Tipo">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:58:53 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idti_ds" id="26632133-FBCB-BBD8-61DE-95878835B5D6">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:59:01 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_ds" id="5C43F413-6D44-6EA0-CB1D-F6B6E9625B9A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:59:14 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origen_ds" id="F6930B7A-3EA7-1A52-B8DB-7B844E0850A0">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:59:39 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_ds" id="F2BF4BED-0E83-ABE2-8721-5FE1A705AF69">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:59:58 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6591727B-342B-01BB-5506-DC125E984BFA" name="Tipo PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-01-18 03:59:11 UTC</createdTime>
+<ownerDesignName>sigbbdd</ownerDesignName>
+<engineerTo>
+<item key="5D31958D-DB2A-0D1D-2564-2F0759E60E76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26632133-FBCB-BBD8-61DE-95878835B5D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
