@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="data_modeler" id="EF03E870-50A5-820B-AFD5-3FCF81BC7007" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 13:20:41 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EF03E870-50A5-820B-AFD5-3FCF81BC7007</designId>
+</OSDM_Design>

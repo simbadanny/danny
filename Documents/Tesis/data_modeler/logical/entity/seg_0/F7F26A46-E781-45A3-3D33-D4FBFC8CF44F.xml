@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7F26A46-E781-45A3-3D33-D4FBFC8CF44F" name="Horario_Atencion">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:16:39 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ho" id="07A1D4AB-BAAF-B879-363B-CF0631D3F0F3">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:16:51 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaEntrda_ho" id="C161D32F-0E6B-4269-8FE2-5540B9314226">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:17:08 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida_ho" id="66899251-2AF9-5513-C4A6-CD8EE5E22364">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:18:39 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="858C0C2A-C3D4-8D1A-510F-35A6C8960736" name="Horario_Atencion PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:17:06 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07A1D4AB-BAAF-B879-363B-CF0631D3F0F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

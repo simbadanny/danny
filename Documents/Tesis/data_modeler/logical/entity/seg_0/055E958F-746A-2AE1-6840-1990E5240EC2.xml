@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="055E958F-746A-2AE1-6840-1990E5240EC2" name="Reguistro_Adm">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 13:24:31 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ad" id="7A2E19D1-48D8-74E7-D0F9-17BDEDB9A8BB">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:11:49 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ad" id="B9319F38-34FF-A886-4A6D-EB354B034D15">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:12:15 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_ad" id="2242AAE6-3633-982C-81AA-E7FD5FEB1BE9">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:12:47 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_ad" id="17CF7D95-89D6-315F-DDE2-B9B55DA207E0">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:13:03 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password_ad" id="BE18F5E9-E8A6-B319-7D8F-7A9C84F90707">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:13:18 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59AF14B5-0414-5AC2-18BD-CD386921418E" name="Reguistro_Adm PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-05-27 14:12:11 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="8692F27C-48B2-ECFA-115D-195F7B46B0CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A2E19D1-48D8-74E7-D0F9-17BDEDB9A8BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
